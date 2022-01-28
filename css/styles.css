@@ -9,11 +9,16 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 /* Header styles*/
 .logo {
   font-family: 'Raleway', sans-serif;
   color: var(--title-text-color);
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 .logo-first-part {
   color: var(--accent-color);
@@ -24,3 +29,23 @@ body {
 .list {
   list-style-type: none;
 }
+.nav-item {
+  color: var(--title-text-color);
+}
+.contacts-h {
+  color: var(--primary-text-color);
+}
+.nav-item,
+.contacts-h {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.nav-item:hover,
+.nav-item:focus,
+.contacts-h:hover,
+.contacts-h:focus {
+  color: var(--accent-color);
+}
+/* Hero section */
