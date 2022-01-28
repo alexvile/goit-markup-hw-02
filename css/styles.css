@@ -4,12 +4,15 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --semitransparent-white-color: rgba(255, 255, 255, 0.6);
+  --bg-darl-color: #2f303a;
+  --bg-light-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /* Header styles*/
@@ -68,3 +71,19 @@ body {
   cursor: pointer;
 }
 /* Features section */
+.subtitle {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+/* What we do section */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
