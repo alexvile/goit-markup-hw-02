@@ -5,3 +5,22 @@
   --primary-white-color: #ffffff;
   --semitransparent-white-color: rgba(255, 255, 255, 0.6);
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+/* Header styles*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--title-text-color);
+}
+.logo-first-part {
+  color: var(--accent-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
