@@ -63,13 +63,15 @@ body {
   color: var(--primary-white-color);
   background-color: black; /* !!!!!временный фон !!!*/
 }
-.button {
+.btn {
+  cursor: pointer;
+}
+.main-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  cursor: pointer;
 }
 /* Features section */
 .features-subtitle {
@@ -119,4 +121,9 @@ body {
 }
 .footer-address {
   font-style: normal;
+}
+/*                       Portfolio PAGE                 */
+/* Buttons */
+.portf-button {
+  color: var(--title-text-color);
 }
