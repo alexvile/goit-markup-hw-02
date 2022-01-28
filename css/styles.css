@@ -7,18 +7,18 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--primary-text-color);
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--primary-text-color);
 }
 /* Header styles*/
 .logo {
   font-family: 'Raleway', sans-serif;
-  color: var(--title-text-color);
   font-size: 26px;
   line-height: 1.2;
   font-weight: 400;
+  color: var(--title-text-color);
 }
 .logo-first-part {
   color: var(--accent-color);
@@ -49,3 +49,22 @@ body {
   color: var(--accent-color);
 }
 /* Hero section */
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: black; /* временный фон */
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+/* Features section */
