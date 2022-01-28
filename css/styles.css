@@ -10,8 +10,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -71,12 +69,16 @@ body {
   cursor: pointer;
 }
 /* Features section */
-.subtitle {
-  font-size: inherit;
+.features-subtitle {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14px;
   text-transform: uppercase;
   color: var(--title-text-color);
+}
+.features-desc {
+  font-size: 14px;
+  line-height: 1.71;
 }
 /* What we do section */
 .title {
@@ -86,4 +88,17 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+/* Our team section */
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.team-desc {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
