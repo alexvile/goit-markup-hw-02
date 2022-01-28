@@ -49,6 +49,9 @@ body {
 .contacts-h:focus {
   color: var(--accent-color);
 }
+.nav-item.current {
+  color: var(--accent-color);
+}
 /* Hero section */
 .page-title {
   font-weight: 900;
