@@ -53,6 +53,9 @@ body {
   color: var(--accent-color);
 }
 /* Hero section */
+.hero-section {
+  text-align: center;
+}
 .page-title {
   font-weight: 900;
   font-size: 44px;
@@ -77,7 +80,7 @@ body {
 .features-subtitle {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
@@ -125,7 +128,16 @@ body {
 /*                       Portfolio PAGE                 */
 /* Buttons */
 .portf-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
   color: var(--title-text-color);
+}
+.portf-button:focus,
+.portf-button:hover {
+  color: var(--primary-white-color);
 }
 /* Cards */
 .card-title {
