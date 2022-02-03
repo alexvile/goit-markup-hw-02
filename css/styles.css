@@ -143,6 +143,9 @@ body {
   color: var(--primary-white-color);
 }
 /* Cards */
+.card {
+  color: inherit;
+}
 .card-title {
   font-size: 18px;
   line-height: 2;
