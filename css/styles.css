@@ -55,6 +55,7 @@ body {
 /* Hero section */
 .hero-section {
   text-align: center;
+  background-color: black; /* !!!!!временный фон !!!*/
 }
 .page-title {
   font-weight: 900;
@@ -64,7 +65,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: black; /* !!!!!временный фон !!!*/
 }
 .btn {
   cursor: pointer;
@@ -111,8 +111,11 @@ body {
   text-align: center;
 }
 /* Footer styles */
-.footer-list {
+.footer {
   background-color: black; /* !!!!!Временный фон !!!*/
+}
+.logo-footer {
+  color: var(--primary-white-color);
 }
 .contacts-f {
   font-size: 14px;
